@@ -9,9 +9,3 @@ while List[-2] >= List[-1]:
     List.append(summac(List[-2], List[-1]))
 
 print(len(List))
-
-
-
-
-
-
