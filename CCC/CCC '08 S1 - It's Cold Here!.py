@@ -13,9 +13,9 @@ while counter <= 10000:
         ele = city.split(" ")
         big[ele[0]] = int(ele[1])
 
-for key in big:
-    if big[key] < lowest:
-        lowest = big[key]
-        lowestCity = key
+for city in big:
+    if big[city] < lowest:
+        lowest = big[city]
+        lowestCity = city
 
 print(lowestCity)
